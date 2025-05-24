@@ -69,10 +69,10 @@ Figure 3 : The UART Transmit On The Termite
  
  PA8 -> TIM1_CH1 -> Motor Driver -> ENA
  
- Motor Driver |-> IN1 & IN2 -> PC9 & PC8
-              |-> OUT1 & OUT2 -> VCC & GND (DC Motor)
-              |-> GND -> Battery and STM32FODISC
-              |-> +12V -> Battery 
+ Motor Driver | -> IN1 & IN2 -> PC9 & PC8
+              | -> OUT1 & OUT2 -> VCC & GND (DC Motor)
+              | -> GND -> Battery and STM32FODISC
+              | -> +12V -> Battery 
  
  PA9 -> USART_TX -> UART RX Pin
  
