@@ -6,20 +6,6 @@ This project uses dual PWM control based on temperature and light sensor data. T
 All sensor data is displayed on the serial monitor via UART.
 
 
--> Features
-
-* Temperature Controlled Fan
-
-The speed of the fan controlled by PWM according to temperature data received from the DHT11 sensor. As the temperature decreases, the fan spins faster; as the temperature increases, the fan slows down.
-
-* Light-Controlled LED Brightness
-
-The brightness of the LED controlled by PWM according to received from the LDR sensor. As the amount of light decreases, the LED lights up brighter; as the amount of light increases, the LED dims.
-
-* Data Transmit
-
-The temperature, the LDR value and PWM motor transmit to the serial monitor via UART.
-
 -> Components Used
 
 STM32F0DISC
@@ -41,6 +27,22 @@ UART Module
 4 x 1.5V Alkalin Batteries
 
 Jumper Cables
+
+
+-> Features
+
+* Temperature Controlled Fan
+
+The speed of the fan controlled by PWM according to temperature data received from the DHT11 sensor. As the temperature decreases, the fan spins faster; as the temperature increases, the fan slows down.
+
+* Light-Controlled LED Brightness
+
+The brightness of the LED controlled by PWM according to received from the LDR sensor. As the amount of light decreases, the LED lights up brighter; as the amount of light increases, the LED dims.
+
+* Data Transmit
+
+The temperature, the LDR value and PWM motor transmit to the serial monitor via UART.
+
 
 
 
