@@ -43,6 +43,17 @@ The brightness of the LED controlled by PWM according to received from the LDR s
 
 The temperature, the LDR value and PWM motor transmit to the serial monitor via UART.
 
+Figure 1 : Circuit Installation
+
+<img src="https://raw.githubusercontent.com/ssenanb/Environment-Reaction-System/main/my_circuit.jpeg" alt="Circuit Diagram" width="500"/>
+
+Figure 2 : The LED Reaction According To The LDR 
+
+<img src="https://raw.githubusercontent.com/ssenanb/Environment-Reaction-System/main/led_change.gif" alt="LED Brightness Change" width="400"/>
+
+Figure 3 : UART Transmit On The Termite 
+
+<img src="https://raw.githubusercontent.com/ssenanb/Environment-Reaction-System/main/uart_image_in_termite.png" alt="UART Output in Termite" width="500"/>
 
 
 
