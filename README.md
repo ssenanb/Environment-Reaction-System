@@ -64,14 +64,23 @@ Figure 3 : The UART Transmit On The Termite
  <img src="https://raw.githubusercontent.com/ssenanb/Environment-Reaction-System/main/configuration.png" alt="System Configuration" width="500"/>
 
  PA0 -> ADC_IN0 -> LDR
+ 
  PA1 -> TIM2_CH2 -> LED
+ 
  PA8 -> TIM1_CH1 -> Motor Driver -> ENA
+ 
  Motor Driver -> IN1 & IN2 -> PC9 & PC8
+ 
               -> OUT1 & OUT2 -> VCC & GND (DC Motor)
+              
               -> GND -> Battery and STM32FODISC
+              
               -> +12V -> Battery 
+ 
  PA9 -> UART_TX
+ 
  PA10 -> UART_RX
+ 
  PA11 -> DHT11
 
  
