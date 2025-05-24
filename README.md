@@ -1,3 +1,5 @@
+# Environment Reaction System
+
 -> Project Description
 
 This project uses dual PWM control based on temperature and light sensor data. The DC motor with a propeller (fan) runs is inversely proportional to the temperature value, while the LED brightness is inversely proportional to the ambient light measured by the LDR. 
