@@ -74,14 +74,13 @@ Figure 3 : The UART Transmit On The Termite
               | -> GND -> Battery and STM32FODISC
               | -> +12V -> Battery 
  
- PA9 -> USART_TX -> UART RX Pin
+ PA9 -> USART1_TX -> UART RX Pin
  
- PA10 -> USART_RX -> UART TX Pin
+ PA10 -> USART1_RX -> UART TX Pin
  
  PA11 -> DHT11
 
- 
-
+ NOTE: I used this library ->  https://github.com/quen0n/DHT11-DHT22-STM32-HAL
 
 
 
