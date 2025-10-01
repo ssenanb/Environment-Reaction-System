@@ -37,7 +37,7 @@ uint16_t temperatureToPWM(uint16_t temperature) {
     uint16_t pwmValue = (temperature - TEMP_MIN) * (PWM_MAX - PWM_MIN) / (TEMP_MAX - TEMP_MIN) + PWM_MIN;
     return pwmValue;
 }
-int __io_putchar(int ch)
+int __io_putchar(int ch) // for printf function
 {
     HAL_UART_Transmit(&huart1, (uint8_t *)&ch, 1, HAL_MAX_DELAY);
     return ch;
@@ -379,3 +379,4 @@ void assert_failed(uint8_t *file, uint32_t line)
   /* USER CODE END 6 */
 }
 #endif /* USE_FULL_ASSERT */
+
